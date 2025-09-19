@@ -1,5 +1,4 @@
-// pokemons.js
-// Array inicial com 5 pokemons
+
 let pokemons = ['Arceus', 'Giratina', 'Raikou', 'Rayquaza', 'Charizard'];
 
 // Create
@@ -36,5 +35,6 @@ function remove(index) {
   return null;
 }
 
-// Exportando
+
 module.exports = { create, readAll, read, update, remove };
+
