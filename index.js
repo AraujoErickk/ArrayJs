@@ -1,7 +1,6 @@
-console.log("Arquivo index.js foi executado!");
 
 
-// index.js
+
 const crud = require('./pokemons');
 
 console.log("Pokemons iniciais:", crud.readAll());
@@ -20,3 +19,4 @@ console.log("Depois de atualizar índice 1:", crud.readAll());
 // DELETE
 crud.remove(0);
 console.log("Depois de remover índice 0:", crud.readAll());
+
